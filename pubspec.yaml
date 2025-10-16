@@ -1,0 +1,23 @@
+name: interview_project
+description: "Interview project for Flutter developers"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  bloc: ^9.1.0
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+  faker: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
