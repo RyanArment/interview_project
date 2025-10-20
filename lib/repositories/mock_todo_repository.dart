@@ -44,7 +44,7 @@ class MockTodoRepository implements TodoRepository {
   }) async {
     // Simulate network delay (200-500ms)
     await Future.delayed(
-      Duration(milliseconds: 200 + _faker.randomGenerator.integer(300)),
+      Duration(milliseconds: 2000 + _faker.randomGenerator.integer(300)),
     );
 
     // Start with all todos
