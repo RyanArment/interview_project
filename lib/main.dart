@@ -154,4 +154,10 @@ void _onSearchChanged(String query){
       )
     );
   }
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
+  }
+  
 }
